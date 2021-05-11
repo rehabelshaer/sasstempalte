@@ -1,0 +1,6 @@
+@mixin perfixer ($property ,$value , $perfixes:()){
+@each $perfix in $perfixes{
+#{'_'+$perfix+'_'+$property}:$value;
+}  
+#{$property}:$value
+}
