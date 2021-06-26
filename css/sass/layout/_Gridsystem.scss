@@ -1,27 +1,32 @@
 * {
-    @include perfixer( box-sizing , border-box );  
-  }
-.container{
- margin: auto;
- padding-left:0px;
- padding-right:0px;
- position: relative;   
-@media (min-width:768px) {
-  width: 750px;
+  @include perfixer(box-sizing, border-box);
 }
-@media (min-width:992px){
-  width: 970px;
-}
-@media (min-width:1200px) {
-  width: 1170px;
-}
+body{
+  margin: 0;
+  padding: 0;
 }
 
-.clearfix{
-clear:both;
+.container {
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  @media (min-width: 768px) {
+    max-width: 750px;
+  }
+  @media (min-width: 992px) {
+    max-width: 970px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1170px;
+  }
 }
-.textcenter{
-@media (max-width:767px) {
-text-align: center;  
+
+.clearfix {
+  clear: both;
 }
+.textcenter {
+  @media (max-width: 767px) {
+    text-align: center;
+  }
 }

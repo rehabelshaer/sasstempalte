@@ -2,7 +2,6 @@
   background-color: rgb(228, 225, 225);
   margin-top: 40px;
   padding-top: 20px;
-
   overflow: hidden;
 
   .gallery,
@@ -88,7 +87,8 @@
   }
   .copyright {
     border-top: 2px solid rgb(196, 192, 192);
-    padding: 15px 0;
+    padding: 20px 0;
+    overflow: hidden;
     .text,
     .author {
       float: $floatleft;
